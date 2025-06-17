@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="frm">
+        <form action="post" id="frm">
+          <div class="userData">
+            <label for="text">FULL NAME</label>
+            <input type="text" class="ip" placeholder="fname" required >
+          </div>
+          <div class="userData">
+            <label for="text">USERNAME</label>
+            <input type="text" class="ip" placeholder="username" required>
+          </div>
+          <div class="userData">
+            <label for="text">EMAIL</label>
+            <input type="email" class="ip" placeholder="email" required>
+          </div>
+          <div class="userData">
+            <label for="text">MOBILE</label>
+            <input type="text" class="ip" placeholder="mobile" required>
+          </div>
+        </form>
+
+        <div class="subBtn">
+          <button value="SendData" id="submit-btn">Submit</button>
+        </div>
+        <div class="resBtn">
+          <button value="resData" id="reset-btn">reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
